@@ -50,13 +50,13 @@
             };
 
             const bucketPresets = {
-                's3_standard': { put: 0.005, get: 0.0004, list: 0.0005 },
-                's3_intelligent_tiering': { put: 0.005, get: 0.0004, list: 0.0005 },
-                's3_standard_ia': { put: 0.01, get: 0.001, list: 0.001 },
-                's3_onezone_ia': { put: 0.01, get: 0.001, list: 0.001 },
-                's3_glacier_instant': { put: 0.01, get: 0.0025, list: 0.001 },
-                's3_glacier_flexible': { put: 0.05, get: 0.0036, list: 0.001 },
-                's3_glacier_deep_archive': { put: 0.05, get: 0.0036, list: 0.001 }
+                's3_standard': { put: 0.005, get: 0.0004, list: 0.005 },
+                's3_intelligent_tiering': { put: 0.005, get: 0.0004, list: 0.005 },
+                's3_standard_ia': { put: 0.01, get: 0.001, list: 0.01 },
+                's3_onezone_ia': { put: 0.01, get: 0.001, list: 0.01 },
+                's3_glacier_instant': { put: 0.02, get: 0.01, list: 0.02},
+                's3_glacier_flexible': { put: 0.03, get: 0.0004, list: 0.03 },
+                's3_glacier_deep_archive': { put: 0.05, get: 0.0004, list: 0.05 }
             };
 
             if (backupPresets[backupPreset]) {
